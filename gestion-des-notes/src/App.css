@@ -1,0 +1,108 @@
+/* Styles globaux de l'application */
+body {
+  font-family: 'Roboto', sans-serif; /* Utilisation de la police Roboto */
+  background-color: #f8f9fa; /* Couleur de fond légère */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #ffffff; /* Fond blanc */
+  padding: 20px;
+  border-radius: 12px; /* Bordures plus arrondies */
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1); /* Ombre portée plus prononcée */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333; /* Couleur de texte légèrement plus foncée */
+}
+
+h2 {
+  margin: 20px 0px;
+  color: #333333; /* Couleur de texte légèrement plus foncée */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #dddddd; /* Bordure plus légère */
+  border-radius: 6px; /* Coins légèrement plus arrondis */
+  font-size: 16px;
+}
+
+button {
+  padding: 14px 24px;
+  background-color: #4CAF50; /* Vert pour les boutons principaux */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Vert légèrement plus foncé au survol */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  padding: 10px 16px;
+  background-color: #f44336; /* Rouge pour les boutons de suppression */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c62828; /* Rouge plus foncé au survol */
+}
+
+.section {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
